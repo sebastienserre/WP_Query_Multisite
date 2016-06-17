@@ -30,8 +30,6 @@ wp_reset_postdata();
 
 ### Automatic multisite search example
 
-On your functions.php:
-
 ```php
 
 function my_multisite_search($query) {
