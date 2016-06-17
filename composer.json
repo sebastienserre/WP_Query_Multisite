@@ -1,0 +1,26 @@
+{
+  "name": "miguelpeixe/WP_Query_Multisite",
+  "keywords": [
+    "WordPress",
+    "multisite",
+    "query"
+  ],
+  "homepage": "https://github.com/miguelpeixe/WP_Query_Multisite",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Miguel Peixe",
+      "email": "miguel@cardume.art.br"
+    }
+  ],
+  "type": "library",
+  "description": "A subclass of WP_Query to allow for easy querying of multisite posts.",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
