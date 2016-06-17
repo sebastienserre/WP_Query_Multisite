@@ -120,4 +120,3 @@ class WP_Query_Multisite {
 
 new WP_Query_Multisite();
 
-?>
