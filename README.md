@@ -33,7 +33,6 @@ wp_reset_postdata();
 On your functions.php:
 
 ```php
-include_once(TEMPLATEPATH . '/path/to/multisite-query.php');
 
 function my_multisite_search($query) {
 	if(!is_admin() && $query->is_main_query() && $query->is_search) {
